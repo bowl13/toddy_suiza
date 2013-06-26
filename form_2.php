@@ -72,164 +72,173 @@
 					</div>
 
 					<div class="row-fluid">
-						
+
 						<div class="span11 form well-small">
 					
-					<form action="">
-						
-						<div class="error text-center well-small hide">
-							No seai pollo, revisa los campos en rojo.
+							<form action="">
+								
+								<div class="error text-center well-small hide">
+									No seai pollo, revisa los campos en rojo.
+								</div>
+
+									<div class="span6 text-left">
+									
+									<div class="hidden-phone hidden-tablet" style="position:absolute;left:-17px;margin-top:5px;max-width:100px;height:auto;">
+										
+										<img src="images/mano_toddy.png" />
+
+									</div>
+
+									<div class="control-group">											
+									<label class="control-label pull-left" for="inputNombre">nombre</label>
+									<div class="controls">
+									<input type="text" class="campo" id="inputNombre" placeholder="Toddy">
+									</div>
+
+									</div>
+
+									<div class="control-group">
+
+									<label class="control-label pull-left" for="inputApellido">apellido</label>
+									<div class="controls">
+									<input type="text" class="campo" id="inputApellido" placeholder="Vacuno">
+									</div>
+
+									</div>
+
+									<div class="control-group">
+
+									<label class="control-label pull-left" for="inputRut">rut</label>
+									<div class="controls">
+									<input type="text" class="campo" id="inputRut" placeholder="Rut">
+									</div>
+
+									</div>
+
+									<div class="control-group">
+
+									<label class="control-label pull-left" for="inputEmail">e-mail</label>
+									<div class="controls">
+									<input type="text" class="campo" id="inputEmail" placeholder="Toddy@vacuno.cl">
+									</div>
+
+									</div>
+
+									<div class="control-group">
+
+									<label class="contrl-label pull-left" for="inputCelular">celulár</label>
+									<div class="controls">
+									<input type="text" class="campo" id="inputCelular" placeholder="Celulár">
+									</div>
+
+									</div>
+
+									<div class="control-group">
+
+									<label class="control-label pull-left" for="inputDirec">dirección</label>
+									<div class="controls">
+									<input type="text" class="campo" id="inputDirec" placeholder="Dirección">
+									</div>
+
+									</div>
+
+									<div class="control-group">
+
+									<label class="control-label pull-left" for="inputRegion">región</label>
+									<div class="controls">
+									<select class="campo" id="inputRegion">
+
+									<option  value="0" selected="selected">Elige un Regiones</option>
+									<option value="1">Tarapaca</option>
+									<option value="2">Antofagasta</option>
+									<option value="3">Atacama</option>
+									<option value="4">Coquimbo</option>
+									<option value="5">Valparaiso</option>
+									<option value="6">O'Higgins</option>
+									<option value="7">Maule</option>
+									<option value="8">Bio - Bio</option>
+									<option value="9">Araucania </option>
+									<option value="10">Los Lagos</option>
+									<option value="11">Aisen</option>
+									<option value="12">Magallanes Y Antartica</option>
+									<option value="13">Metropolitana</option>
+									<option value="14">Los Rios</option>   
+									<option value="15">Arica y Parinacota</option>
+									</select>
+									</div>
+
+									</div>
+
+									<div class="control-group">
+
+									<label class="control-label pull-left" for="inputComuna">comuna</label>
+									<div class="controls">
+									<select class="campo" id="inputComuna">
+
+									<option value="0">-</option>
+
+									</select>
+									</div>
+
+									</div>
+
+
+
+
+									</div>
+
+									<div class="span5 text-left">
+
+									<div class="control-group">
+
+									<label class="control-label" for="inputDato">nº boleta</label>
+									<div class="controls">
+									<input type="text" class="campo text-center" id="inputDato" placeholder="xxxxxx" style="height:30px;width:90%;margin-top:-20px;" class="text-center">
+									</div>
+
+									</div>
+
+									<p style="margin-bottom:10px;margin-top:5px;">Términos y condiciones La información entregada es de uso exclusivo de Evercrisp S.A. Tus datos serán tratados de forma confidencial y bajo ningún motivo serán utilizados con fines ajenos a la promoción, ni entregados a terceros.</p>
+
+									<div class="control-group" style="margin-bottom:10px">
+
+									<div class="controls">
+
+									<div class="error2 text-center well-small hide">Acepta las bases y condiciones para continuar</div>
+
+									<input type="checkbox" id="inputEdad" class="check pull-left">
+									<label class="checkbox control-label pull-left" style="font-size:10px !important;line-height:12px">
+									Declaro ser mayor de 18 años y acepto las <a style="color:#003333;" href="bases.pdf">bases de la promoción.</a>
+									</label>
+
+									</div>
+		<div class="clearfix"></div>
+									<div>
+										<p>“En este acto, declaro ser mayor de 18 años y autorizo a Evercrisp y a los terceros vinculados al desarrollo de esta promoción a utilizar los datos que he entregado con ocasión de mi registro. En virtud de esta autorización Evercrisp podrá procesar y tratar dichos datos personales con la finalidad de desarrollar e implementar la promoción y enviar material promocional y publicidad relativo a Toddy y otros productos Evercrisp”.</p>
+									</div>
+
+									</div>
+
+									<div class="control-group text-center">
+
+									<div class="controls">
+									<input class="btn_parti" type="button" value="participar">	
+									</div>
+
+									</div>
+
+									<p id="legal" class="pull-left">Promoción válida desde el 27 de Junio al 27 de Agosto del 2013. Bases en notaría Musalem.</p>
+									<div class="pull-left">
+
+									<img style="margin-left:4px" src="images/logo_jumbo.gif"/>
+
+									</div>
+									<div class="clearfix"></div>
+									</div>
+
+							</form>
+
 						</div>
-
-							<div class="span6 text-left">
-
-
-							<div class="control-group">											
-							<label class="control-label pull-left" for="inputNombre">nombre</label>
-							<div class="controls">
-							<input type="text" class="campo" id="inputNombre" placeholder="Toddy">
-							</div>
-
-							</div>
-
-							<div class="control-group">
-
-							<label class="control-label pull-left" for="inputApellido">apellido</label>
-							<div class="controls">
-							<input type="text" class="campo" id="inputApellido" placeholder="Vacuno">
-							</div>
-
-							</div>
-
-							<div class="control-group">
-
-							<label class="control-label pull-left" for="inputRut">rut</label>
-							<div class="controls">
-							<input type="text" class="campo" id="inputRut" placeholder="Rut">
-							</div>
-
-							</div>
-
-							<div class="control-group">
-
-							<label class="control-label pull-left" for="inputEmail">e-mail</label>
-							<div class="controls">
-							<input type="text" class="campo" id="inputEmail" placeholder="Toddy@vacuno.cl">
-							</div>
-
-							</div>
-
-							<div class="control-group">
-
-							<label class="contrl-label pull-left" for="inputCelular">celular</label>
-							<div class="controls">
-							<input type="text" class="campo" id="inputCelular" placeholder="Celular">
-							</div>
-
-							</div>
-
-							<div class="control-group">
-
-							<label class="control-label pull-left" for="inputDirec">direccion</label>
-							<div class="controls">
-							<input type="text" class="campo" id="inputDirec" placeholder="Direccion">
-							</div>
-
-							</div>
-
-							<div class="control-group">
-
-							<label class="control-label pull-left" for="inputRegion">region</label>
-							<div class="controls">
-							<select class="campo" id="inputRegion">
-
-							<option  value="0" selected="selected">Elige un Regiones</option>
-							<option value="1">Tarapaca</option>
-							<option value="2">Antofagasta</option>
-							<option value="3">Atacama</option>
-							<option value="4">Coquimbo</option>
-							<option value="5">Valparaiso</option>
-							<option value="6">O'Higgins</option>
-							<option value="7">Maule</option>
-							<option value="8">Bio - Bio</option>
-							<option value="9">Araucania </option>
-							<option value="10">Los Lagos</option>
-							<option value="11">Aisen</option>
-							<option value="12">Magallanes Y Antartica</option>
-							<option value="13">Metropolitana</option>
-							<option value="14">Los Rios</option>   
-							<option value="15">Arica y Parinacota</option>
-							</select>
-							</div>
-
-							</div>
-
-							<div class="control-group">
-
-							<label class="control-label pull-left" for="inputComuna">comuna</label>
-							<div class="controls">
-							<select class="campo" id="inputComuna">
-
-							<option value="0">-</option>
-
-							</select>
-							</div>
-
-							</div>
-
-
-
-
-							</div>
-
-							<div class="span5 text-left">
-
-							<div class="control-group">
-
-							<label class="control-label" for="inputDato">nº boleta</label>
-							<div class="controls">
-							<input type="text" class="campo text-center" id="inputDato" placeholder="xxxxxx" style="height:45px;width:90%;" class="text-center">
-							</div>
-
-							</div>
-
-							<p style="margin-bottom:30px;margin-top:20px;">Términos y condiciones La información entregada es de uso exclusivo de Evercrisp S.A. Tus datos serán tratados de forma confidencial y bajo ningún motivo serán utilizados con fines ajenos a la promoción, ni entregados a terceros.</p>
-
-							<div class="control-group" style="margin-bottom:30px">
-
-							<div class="controls">
-
-							<div class="error2 text-center well-small hide">Acepta las bases y condiciones para continuar</div>
-
-							<input type="checkbox" id="inputEdad" class="check pull-left">
-							<label class="checkbox control-label pull-left" style="font-size:10px !important;line-height:12px">
-							Declaro ser mayor de 18 años y acepto las <a style="color:#003333;" href="bases.pdf">bases de la promoción.</a>
-							</label>
-
-							</div>
-
-							</div>
-
-							<div style="margin-bottom:30px" class="control-group text-center">
-
-							<div class="controls">
-							<input class="btn_parti" type="button" value="participar">	
-							</div>
-
-							</div>
-
-							<p id="legal" class="pull-left">Promoción válida desde el 27 de Junio al 27 de Agosto del 2013. Bases en notaría Musalem.</p>
-							<div class="pull-left">
-
-							<img style="margin-left:4px" src="images/logo_jumbo.gif"/>
-
-							</div>
-							<div class="clearfix"></div>
-							</div>
-
-					</form>
-
-				</div>
 
 					</div>
 

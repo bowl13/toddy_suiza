@@ -41,7 +41,7 @@
 	</div>
 
 
-	<div class="row-fluid" style="margin-top:80px;">
+	<div class="row-fluid">
 			
 		<div class="span12 text-center">
 			

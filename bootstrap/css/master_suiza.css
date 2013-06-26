@@ -91,8 +91,8 @@ body a{
     height: 20px;
 }
 .form .checkbox{
-    width:80% !important;
-    height: 50px;
+    width:85% !important;
+    /*height: 50px;*/
 }
 .form #legal{
     max-width:80%;
