@@ -1,0 +1,51 @@
+/* CSS Document */
+body{
+	margin:0 0; 
+	padding:0 0;
+	overflow-x:hidden;
+	overflow-y:auto;
+	}
+html{
+	/*background: url(../images/fnd-productos.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;*/
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+#cont_img{
+		margin:0;
+	    padding:0;
+	    position:absolute;
+	    z-index:0;
+	    width:100%;
+	    height:100%;
+}
+#btnSiguiente{
+	width:42px;
+	height:42px;
+	right:190px;
+	position:absolute;
+	background:url(../images/f2-trans.png) no-repeat;
+	display:block;
+	}
+#btnAnterior{
+	width:42px;
+	height:42px;
+	left:190px;
+	position:absolute;
+	background:url(../images/f1-trans.png) no-repeat;
+	display:block;
+	}
+	
+#todo-{
+	margin:auto 50%;
+	z-index:10;
+	position:absolute;
+	top:50%;
+}
+
+#slider-general{
+	margin:-360px 0 0 -683px;
+}

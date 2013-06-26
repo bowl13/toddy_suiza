@@ -1,0 +1,53 @@
+/* CSS Document */
+body{
+	margin:0 0; 
+	padding:0 0;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	}
+html{
+	/*background: url(../images/fnd-comics.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;*/
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+#cont_img{
+		margin:0;
+	    padding:0;
+	    position:absolute;
+	    z-index:0;
+	    width:100%;
+	    height:100%;
+}
+#centro{
+	/*width:1092px;*/
+	width:100%;
+	height:543px;
+	margin:auto 50%;
+	top:50%;
+	position:absolute;
+}
+
+#mover-int{
+	margin: -240px 0 0 -580px;
+}
+
+#frase{
+	position:relative;
+	margin:-370px 0 0 680px;	
+}
+	
+#btn{
+	position:relative;
+	margin:20px 0 0 770px;
+	background:url(../images/btn-comics-trans.png) no-repeat;
+	width:220px;
+	height:39px;
+	display:block;
+}
+#btn:hover{
+	background-position: 0 -39px;
+}

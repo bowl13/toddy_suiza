@@ -1,0 +1,185 @@
+body{
+	background-color: #ffd;
+    background-image: url('../../images/bg-suiza.jpg');
+    background-position: center 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../images/bg-suiza.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../images/bg-suiza.jpg', sizingMethod='scale')"; 
+    padding:0 !important;
+}
+body a{
+    text-decoration: underline;
+}
+.container-fluid{
+    padding: 0 !important;
+}
+.footer-fix{
+    position: relative;
+    height:100%;
+    z-index: 9;
+	margin-top: -43px;
+	height:43px;
+	clear:both;
+  	padding-top:20px;
+  	background-color: #016;
+    font-size: 10px;
+    color:#fff;
+}
+
+/*sty header*/
+.headers{
+    position: relative;;
+    z-index: 9;
+    margin-top:80px;
+}
+.tit-suiza{
+    margin: 80px 0;
+}
+.bg-w{
+    background-color: rgba(255,255,255,.5);
+    position: relative;
+    z-index: 1;
+    max-width: 920px;
+    width:85%;
+    margin: 0 auto;
+    margin-top:-60px;
+    padding-top: 100px;
+}
+.bg-w h1{
+    color:#003333; 
+    -text-shadow: 1px 0 #ffd;
+}
+.bg-w p{
+    max-width:700px;
+    color: #003333;
+    font-family: Arial Black, Sans-Serif;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.form{
+    background-color: #669999;
+    border: 4px solid #669999;
+    -webkit-box-shadow: inset 0px 0px 200px #4e686e;
+    -moz-box-shadow: inset 0px 0px 200px #4e686e;
+    box-shadow: inset 0px 0px 200px #4e686e;
+    margin: 0 0 60px 40px !important;
+}
+.form label{
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Arial Black, Sans-Serif;
+    height: 30px;
+    margin-bottom: 10px;
+    width: 30%;
+}
+.form input, .form select{
+    width:231px;
+    -webkit-box-shadow: inset 0 0 3px #000;
+    -moz-box-shadow: inset 0 0 3px #000;
+    box-shadow: inset 0 0 3px #000;
+    border:none;
+}
+.form p{
+    font-size: 10px;
+    color: #fff;
+    line-height: 12px;
+}
+.form .check{
+    width:20px !important;
+    height: 20px;
+}
+.form .checkbox{
+    width:80% !important;
+    height: 50px;
+}
+.form #legal{
+    max-width:80%;
+    padding-top: 15px;
+}
+.btn_parti{
+    width:;
+    border:3px solid #ffd !important;
+    background-color:#ff3333;
+    --webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    width: 210px;
+    height: 44px;
+    font-size: 21px;
+    color:#ffd;
+    font-family: Arial Black, Sans-Serif;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0px 0 5px 2px #3a4e53 !important;
+    -moz-box-shadow: 0px 5px 2px #3a4e53 !important;
+    box-shadow: 0px 0 5px 2px #3a4e53 !important;
+}
+.form .error{
+    margin:0 auto 10px;
+    border:2px solid #ff3333;
+    width:50%;
+    background-color: #ffd;
+    color: #ff3333;
+    text-transform: uppercase;
+}
+.form .error2{
+    margin:0 auto 5px;
+    border:2px solid #ff3333;
+    width:100%;
+    background-color: #ffd;
+    color: #ff3333;
+    font-size:11px;
+    text-transform: uppercase;
+}
+.vaca{
+    margin-top:-150px
+}
+.text_prin{
+    padding-right: 40px;
+}
+@media (max-width: 768px){
+    .bg-w{
+        width:100% !important;
+    }
+    .headers{
+        margin-top:0;
+    }
+    .form{
+        margin-left:30px !important;
+    }
+    .vaca{
+        padding-left: 20px;
+    }
+}
+@media (max-width:640px){
+    .form #legal{
+        width:70% !important;
+        margin-right: 10px;
+    }
+    #cont_text{
+        padding-left: 0 !important;
+    }
+    .form{
+        margin-left:0 !important;
+    }
+    .text_prin{
+        text-align: center !important;
+        padding:10px;
+    }
+    .vaca{
+        margin-top:0;
+    }
+    .headers{
+        margin-top:0;
+    }
+}
+#cont_text{
+    text-transform:uppercase;
+    padding-left:75px;
+    letter-spacing:-1px;
+}
+/*old styles*/
+#botonera_int{
+    position:absolute !important;
+}

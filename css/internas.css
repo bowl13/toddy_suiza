@@ -1,0 +1,109 @@
+#contenido_int{
+	width:100%;
+	height:100%;
+}
+
+#footer-int{
+	width:100%;
+	height:98px;
+	display:block;
+	background:url(../images/footer-int-trans.png) no-repeat center;
+	text-align:center;
+	position:absolute;
+	bottom:0;
+}
+
+#botonera_int{
+	background:url(../images/top-int-trans.png) repeat-x;
+	width:100%;
+	height:185px;
+	z-index:30;
+	position:relative;
+}
+	
+#navegacion_int{
+	/*margin:0 50%;*/
+	margin:0 auto;
+	width:1000px;	
+}
+
+/*#mover{
+	margin: 0 0 0 -500px;
+}*/
+#botonera_int img{
+	float:left;
+	margin-right:20px;
+}
+
+#btn1{
+	width:176px;
+	height:75px;
+	display:block;
+	float:left;
+	background:url(../images/btn1_int-trans.png) no-repeat;
+	}
+#btn1:hover{
+	background-position: 0 -85px;
+	}
+#btn2{
+	width:176px;
+	height:75px;
+	display:block;
+	float:left;
+	margin-left:25px;
+	background:url(../images/btn2_int-trans.png) no-repeat;
+	}
+#btn2:hover{
+	background-position: 0 -85px;
+	}
+#btn3{
+	width:176px;
+	height:75px;
+	display:block;
+	float:left;
+	background:url(../images/btn3_int-trans.png) no-repeat;
+	}
+#btn3:hover{
+	background-position: 0 -85px;
+	}
+	
+#botonera_int  #share{
+	width:145px;
+	display:block;
+	float:left;
+	background:url(../images/sg-trans.png) 0 23px no-repeat;
+	padding-left:90px;
+}
+#share1{
+	float:left;
+	width:32px;
+	height:32px;
+	margin:23px 5px 0 10px;
+	background:url(../images/share-tw-trans.png) no-repeat;
+	display:block;
+	}
+#share1:hover{
+	background-position:0 -32px;
+}
+#share2{
+	float:left;
+	width:32px;
+	height:32px;
+	margin:23px 5px 0 5px;
+	background:url(../images/share-fb-trans.png) no-repeat;
+	display:block;
+	}
+#share2:hover{
+	background-position:0 -32px;
+}
+#share3{
+	float:left;
+	width:32px;
+	height:32px;
+	margin:23px 5px 0 5px;
+	background:url(../images/share-yt-trans.png) no-repeat;
+	display:block;
+	}
+#share3:hover{
+	background-position:0 -32px;
+}

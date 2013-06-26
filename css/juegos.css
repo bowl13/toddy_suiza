@@ -1,0 +1,84 @@
+/* CSS Document */
+body{
+	margin:0 0; 
+	padding:0 0;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	}
+html{
+	/*background: url(../images/fnd-juegos.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;*/
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+#cont_img{
+		margin:0;
+	    padding:0;
+	    position:absolute;
+	    z-index:0;
+	    width:100%;
+	    height:100%;
+}
+#btnmac{
+	width:172px;
+	height:73px;
+	display:block;
+	float:left;
+	margin:390px 0 0 350px;
+	background:url(../images/btn-mac-trans.png) no-repeat;
+}
+#btnmac:hover{
+	background-position:0 -74px;
+}
+
+#btngoogle{
+	width:172px;
+	height:73px;
+	display:block;
+	float:left;
+	margin:390px 0 0 0;
+	background:url(../images/btn-google-trans.png) no-repeat;
+}
+#btngoogle:hover{
+	background-position:0 -73px;
+}
+
+#centro{
+	/*width:1180px;*/
+	width:100%;
+	height:533px;
+	margin:auto 50%;
+	top:50%;
+	z-index:10;
+	position:absolute;
+}
+
+#mover-int{
+	background:url(../images/fnd-juego-trans.png) center center no-repeat;
+	width:1180px;
+	height:533px;
+	display:block;
+	margin: -260px 0 0 -540px;
+}
+
+#vaca{
+	position:absolute;
+	bottom:25px;
+	margin:auto 50%;
+}
+#vaca img{
+	margin-left:-500px;	
+}
+
+#galletas{
+	position:absolute;
+	bottom:25px;
+	margin:auto 50%;
+	z-index:2;
+}
+#galletas img{
+	margin-left:200px;	
+}
