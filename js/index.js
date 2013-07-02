@@ -34,7 +34,7 @@ jQuery(document).ready(function($) {
           page: 2,
           avatar_size: 40,
           count: 20,
-          loading_text: "loading ..."
+          loading_text: "cargando ..."
         }).bind("loaded", function() {
           var ul = $(this).find(".tweet_list");
           var ticker = function() {

@@ -8,8 +8,12 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>Toddy</title>
-	<meta name="description" content="">
+	<meta name="description" content="Que todos los vacunos sepan que acabai de postular para ir hacer relaciones exteriores al distrito del chocolate en Suiza!">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta property="og:title" content="Toddy te lleva a Suiza"/>
+	<meta property="og:image" content="http://www.bowl.cl/clientes/toddy/form_suiza/images/post_img.jpg"/>
+	<meta property="og:description" content="Que todos los vacunos sepan que acabai de postular para ir hacer relaciones exteriores al distrito del chocolate en Suiza!"/>
 
 	<link rel="stylesheet" href="bootstrap/css/master_suiza.css">
 	<link rel="stylesheet" href="css/internas.css">
@@ -126,9 +130,9 @@
 
 									<div class="control-group">
 
-									<label class="contrl-label pull-left" for="inputCelular">celulár</label>
+									<label class="contrl-label pull-left" for="inputCelular">celular</label>
 									<div class="controls">
-									<input type="text" class="campo" id="inputCelular" placeholder="Celulár">
+									<input type="text" class="campo" id="inputCelular" placeholder="Celular">
 									</div>
 
 									</div>
@@ -148,21 +152,21 @@
 									<div class="controls">
 									<select class="campo" id="inputRegion">
 
-									<option  value="0" selected="selected">Elige un Regiones</option>
-									<option value="1">Tarapaca</option>
+									<option  value="0" selected="selected">Elige tu Región</option>
+									<option value="1">Tarapacá</option>
 									<option value="2">Antofagasta</option>
 									<option value="3">Atacama</option>
 									<option value="4">Coquimbo</option>
-									<option value="5">Valparaiso</option>
+									<option value="5">Valparaíso</option>
 									<option value="6">O'Higgins</option>
 									<option value="7">Maule</option>
-									<option value="8">Bio - Bio</option>
-									<option value="9">Araucania </option>
+									<option value="8">Bío - Bío</option>
+									<option value="9">Araucanía </option>
 									<option value="10">Los Lagos</option>
-									<option value="11">Aisen</option>
-									<option value="12">Magallanes Y Antartica</option>
+									<option value="11">Aysén</option>
+									<option value="12">Magallanes Y Antártica</option>
 									<option value="13">Metropolitana</option>
-									<option value="14">Los Rios</option>   
+									<option value="14">Los Ríos</option>   
 									<option value="15">Arica y Parinacota</option>
 									</select>
 									</div>
@@ -173,7 +177,7 @@
 
 									<label class="control-label pull-left" for="inputComuna">comuna</label>
 									<div class="controls">
-									<select class="campo" id="inputComuna">
+									<select class="campo" id="inputComuna" style="text-transform:uppercase;">
 
 									<option value="0">-</option>
 
@@ -198,7 +202,7 @@
 
 									</div>
 
-									<p style="margin-bottom:10px;margin-top:5px;">Términos y condiciones La información entregada es de uso exclusivo de Evercrisp S.A. Tus datos serán tratados de forma confidencial y bajo ningún motivo serán utilizados con fines ajenos a la promoción, ni entregados a terceros.</p>
+									<p style="margin-bottom:10px;margin-top:5px;">Términos y condiciones: La información entregada es de uso exclusivo de Evercrisp S.A. Tus datos serán tratados de forma confidencial y bajo ningún motivo serán utilizados con fines ajenos a la promoción, ni entregados a terceros.</p>
 
 									<div class="control-group" style="margin-bottom:10px">
 
@@ -212,7 +216,7 @@
 									</label>
 
 									</div>
-		<div class="clearfix"></div>
+									<div class="clearfix"></div>
 									<div>
 										<p>“En este acto, declaro ser mayor de 18 años y autorizo a Evercrisp y a los terceros vinculados al desarrollo de esta promoción a utilizar los datos que he entregado con ocasión de mi registro. En virtud de esta autorización Evercrisp podrá procesar y tratar dichos datos personales con la finalidad de desarrollar e implementar la promoción y enviar material promocional y publicidad relativo a Toddy y otros productos Evercrisp”.</p>
 									</div>
