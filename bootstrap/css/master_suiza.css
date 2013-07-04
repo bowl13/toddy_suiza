@@ -25,6 +25,7 @@ body a{
   	background-color: #016;
     font-size: 10px;
     color:#fff;
+    *margin-top: 50px !important;
 }
 
 /*sty header*/

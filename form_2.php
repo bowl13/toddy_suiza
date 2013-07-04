@@ -24,7 +24,20 @@
 	<!--[if lt IE 9]>
 		<script src="bootstrap/js/html5shiv.js"></script>
 	<![endif]-->
+	<script type="text/javascript">
 
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-42206920-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+	
 </head>
 <body>
 	
@@ -206,22 +219,24 @@
 
 									<div class="control-group" style="margin-bottom:10px">
 
-									<div class="controls">
+										<div class="controls">
 
-									<div class="error2 text-center well-small hide">Acepta las bases y condiciones para continuar</div>
+											<div class="error2 text-center well-small hide">Acepta las bases y condiciones para continuar</div>
 
-									<input type="checkbox" id="inputEdad" class="check pull-left">
-									<label class="checkbox control-label pull-left" style="font-size:10px !important;line-height:12px">
-									Declaro ser mayor de 18 años y acepto las <a style="color:#003333;" href="bases.pdf">bases de la promoción.</a>
-									</label>
+											<input type="checkbox" id="inputEdad" class="check pull-left">
+											<label class="checkbox control-label pull-left" style="font-size:10px !important;line-height:12px">
+												Declaro ser mayor de 18 años y acepto las <a style="color:#003333;" href="bases.pdf">bases de la promoción.</a>
+											</label>
 
-									</div>
-									<div class="clearfix"></div>
-									<div>
-										<p>“En este acto, declaro ser mayor de 18 años y autorizo a Evercrisp y a los terceros vinculados al desarrollo de esta promoción a utilizar los datos que he entregado con ocasión de mi registro. En virtud de esta autorización Evercrisp podrá procesar y tratar dichos datos personales con la finalidad de desarrollar e implementar la promoción y enviar material promocional y publicidad relativo a Toddy y otros productos Evercrisp”.</p>
+										</div>
+									
 									</div>
 
-									</div>
+									<div class="clearfix" style="height:10px;width:200px;"></div>
+
+									<p>“En este acto, declaro ser mayor de 18 años y autorizo a Evercrisp y a los terceros vinculados al desarrollo de esta promoción a utilizar los datos que he entregado con ocasión de mi registro. En virtud de esta autorización Evercrisp podrá procesar y tratar dichos datos personales con la finalidad de desarrollar e implementar la promoción y enviar material promocional y publicidad relativo a Toddy y otros productos Evercrisp”.</p>
+									
+									<div class="clearfix" style="height:10px;width:200px;"></div>
 
 									<div class="control-group text-center">
 
@@ -253,7 +268,8 @@
 		</div>
 
 	</div>
-
+	
+	<div class="clearfix"></div>
 
 	<footer class="footer-fix container-fluid text-center">® Copyright PepsiCo 2013 - Todos los derechos reservados.</footer>
 
@@ -262,7 +278,7 @@
     <script src="js/jquery-1.9.1.min.js"></script>
     <script src="js/form.js"></script>
 	<script src="js/jquery.js" type="text/javascript"></script> 
-<script src="js/jquery.Rut.js" type="text/javascript"></script>
+	<script src="js/jquery.Rut.js" type="text/javascript"></script>
 
 
 </body>
